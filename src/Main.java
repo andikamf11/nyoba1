@@ -1,29 +1,16 @@
+
 /**
- * Kelas utama yang menjalankan program Sistem Sewa Motor.
- * <p>
- * Program ini memanggil kelas {@link SewaMotor} untuk memulai proses penyewaan motor.
- * Ketika dijalankan, program akan menampilkan informasi motor yang disewa serta
- * rincian data sesuai logika yang ada pada kelas {@code SewaMotor}.
- * </p>
+ * Kelas Main adalah titik awal program penyewaan motor.
+ * Program akan membuat objek SewaMotor dan memulai proses penyewaan.
  *
- * <p><b>Fungsi utama:</b></p>
- * <ul>
- *   <li>Membuat objek dari kelas {@code SewaMotor}</li>
- *   <li>Memanggil method {@code mulaiSewa()} untuk memulai proses penyewaan</li>
- * </ul>
- *
- * @author Andika
+ * @author NamaKamu
  * @version 1.0
- * @since 2025-10-30
  */
 public class Main {
 
     /**
-     * Method utama (entry point) dari program.
-     * <p>
-     * Method ini akan membuat objek dari kelas {@link SewaMotor} dan memanggil
-     * method {@code mulaiSewa()} untuk menjalankan proses penyewaan motor.
-     * </p>
+     * Method utama (main) untuk menjalankan program.
+     * Membuat objek dari kelas SewaMotor dan memanggil method mulaiSewa().
      *
      * @param args argumen baris perintah (tidak digunakan dalam program ini)
      */
